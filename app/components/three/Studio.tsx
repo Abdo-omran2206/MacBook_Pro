@@ -13,7 +13,7 @@ type Props = {
 };
 
 export default function Studio({ size, color }: Props) {
-  const groupRef = useRef<any>();
+  const groupRef = useRef<any>(null);
   const [currentSize, setCurrentSize] = useState(size);
 
   useEffect(() => {
