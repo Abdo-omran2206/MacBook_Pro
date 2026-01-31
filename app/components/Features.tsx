@@ -129,7 +129,7 @@ function ModelScroll() {
         () => {
           setTexture(feature.videoPath);
         },
-        null,
+        [],
         Math.max(0, startProgress - 0.05),
       );
 
